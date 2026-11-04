@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "Designation": "PC Portable Gamer Intel i7",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXzx4Fi0FajjGZznB8g3Fk3LRhEEIgIqE_ACiCVM9CWA&s=10",
+    "prix": "12500"
+  },
+  {
+    "id": 2,
+    "Designation": "Écran PC 27\" 144Hz 1ms",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg83rxTq1fG1i75sik-GODOqUuakODxPoYS3L5XEb_iQ&s=10",
+    "prix": "2800"
+  },
+  {
+    "id": 3,
+    "Designation": "Clavier Mécanique RGB",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0myeW6CGyBME1trU-c1j31j6U8UfeJdxhK3AHg-uZPg&s=10",
+    "prix": "650"
+  },
+  {
+    "id": 4,
+    "Designation": "Souris Gaming Sans Fil",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXzx4Fi0FajjGZznB8g3Fk3LRhEEIgIqE_ACiCVM9CWA&s=10",
+    "prix": "450"
+  },
+  {
+    "id": 5,
+    "Designation": "Casque Audio Surround 7.1",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUbnIg7pBqdBlKYL8rY9vh0CgblLyyyPvBmPOHgkYY3Q&s=10",
+    "prix": "800"
+  },
+  {
+    "id": 6,
+    "Designation": "Disque Dur Externe 1To USB-C",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEHdrLf_YGXyHSUN18xGnrcLA9ltOUA0zjpIrVYk0_Q&s=10",
+    "prix": "750"
+  },
+  {
+    "id": 7,
+    "Designation": "Mémoire RAM 16Go DDR4 3200MHz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgQjiyQRxf6WsyJEetRu7v86r9iCWEpJBsFnbhfolgeQ&s=10",
+    "prix": "900"
+  },
+  {
+    "id": 8,
+    "Designation": "Carte Graphique RTX 4060 Ti",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBWZArcASdij55XRdfmWhNeDJuX47KrvO8Wgkd0S-93w&s=10",
+    "prix": "5200"
+  },
+  {
+    "id": 9,
+    "Designation": "Processeur AMD Ryzen 7",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6hVnk5mbTv7mMm3PgGiNcQeXqGQcyNltV7_hTwlS5Q&s=10",
+    "prix": "3400"
+  },
+  {
+    "id": 10,
+    "Designation": "Carte Mère ATX Wi-Fi 6",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrZ7w_hnBc_3Khtj1feal2NUxRiRjssGKuPTIrhBZvjA&s=10",
+    "prix": "2100"
+  },
+  {
+    "id": 11,
+    "Designation": "SSD Interne NVMe M.2 1To",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7_L8YjbLlTejZzSSCzTF4zn7Qxgb02xUtnwR_qrjUIg&s=10",
+    "prix": "1100"
+  },
+  {
+    "id": 12,
+    "Designation": "Boîtier PC Moyen Tour RGB",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdbIinlxZQtNdoOFgUSxWfA8nfPAK4COysoDPuouto0g&s",
+    "prix": "950"
+  },
+  {
+    "id": 13,
+    "Designation": "Alimentation PC 750W Gold",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDbve2hv9PJVb-rNcY_j_72TJgzimBP2F43w6Ur5SyMQ&s=10",
+    "prix": "1300"
+  },
+  {
+    "id": 14,
+    "Designation": "Refroidissement Liquide AIO 240mm",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPuY64k-3OTwVeWpX75z_jLUglX477NLBF9M-lW-m7Yg&s",
+    "prix": "1200"
+  },
+  {
+    "id": 15,
+    "Designation": "Tapis de Souris XXL Noir",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj6EK68KDS2dMOmMpqoOIVcy7WwAoG8M6oL6pEcfM3nQ&s=10",
+    "prix": "200"
+  },
+  {
+    "id": 16,
+    "Designation": "Webcam Full HD 1080p",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ndx4kE00CC37Q-6kOaaPyrtUSmwsz7_vtPQG3N8ydw&s=10",
+    "prix": "450"
+  },
+  {
+    "id": 17,
+    "Designation": "Chaise Gaming Ergonomique",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVgTl2EGvVG0t0HMdlMFU9yAMiYjWdY9gJj8Gv2HA2Q&s=10",
+    "prix": "2200"
+  },
+  {
+    "id": 18,
+    "Designation": "Imprimante Multifonction Jet d'encre",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpvqQBBiomV6jRjcRP9r8JrwKdQkRdSAMtBZuUpGRnrQ&s=10",
+    "prix": "1600"
+  },
+  {
+    "id": 19,
+    "Designation": "Routeur Wi-Fi 6 Mesh System",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3BscmMROy9Zyk9yaRT6AHu-i7wRDyrmjX4kGLhXevvw&s",
+    "prix": "1400"
+  },
+  {
+    "id": 20,
+    "Designation": "Hub USB-C 8-en-1",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvjd76fN9_iI91oNa8EWu9oNPbZC7jDEO9WCbCzuP1Mg&s=10",
+    "prix": "350"
+  }
+]

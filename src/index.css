@@ -1,0 +1,128 @@
+nav{
+  display: flex;
+border-radius: 5px;
+  gap: 10%;
+  
+}
+.navcontent{
+  background-color: rgb(242, 226, 5);
+
+border: 2px yellow;
+margin-bottom: 10px;
+
+}
+
+body{
+background-color:rgb(12, 11, 11) ;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO_O_PH65cATrCDcBMdS3kxhc2opsnN90-Ae7sKCWsZA&s=10);
+
+
+background-position: center;
+}
+
+
+a{
+  background-color: rgb(242, 226, 5);
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 10px;
+}
+.product-card {
+  background-color: rgb(231, 231, 225);
+  border-radius: 5px;
+  padding: 10px;
+margin: 10px;
+box-shadow: 10px 10px;
+  font-family:fantasy;
+text-align: center;
+
+}
+.allproduct{
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+justify-content: space-evenly;
+}
+.product-card img{
+  height: 250px;
+  width: 250px;
+   mix-blend-mode: multiply;
+  
+}
+nav img{
+
+  mix-blend-mode: multiply;
+}
+.contact{
+  background-color:rgb(245, 189, 3);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 50px;
+  margin: 10px;
+ 
+  margin-top: 6%;
+}
+.contact input{
+
+   width: 70%;
+}
+
+.contact button{
+
+   border: none;
+   padding: 10px;
+   text-align: center;
+   margin-left: 40%;
+}
+.contact label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-right: 10px;
+
+}
+
+
+.cherche{
+  color: yellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.cherche input{
+  width: 30%;
+  margin-left: 10px;
+
+}
+.bienvenue{
+  color: azure;
+  text-align: center;
+
+  padding-bottom: 40%;
+}
+.bienvenue img{
+height: 200px;
+width: 400px;
+background-color: yellow;
+border-radius: 15px;
+}
+
+
+form label{
+  display: block;
+}
+.allcontact{
+  display: flex;
+}
+.contact_img img{
+  width: 70px;
+  margin-left: 15px;
+  
+}
+.contact_img{
+  margin-top: 10%;
+  color: aliceblue;
+  margin-left: 10%;
+  
+}
+
