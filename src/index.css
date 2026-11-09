@@ -32,6 +32,7 @@ a{
 
 }
 .product-card:hover{
+  transform: translateY(-2px);
   box-shadow: 0 0 20px yellow;
   filter: brightness(1.2);
 }
@@ -130,6 +131,9 @@ form label{
 }
 .allproduct button:hover{
   background-color: chocolate;
+    transform: translateY(-2px);
+  box-shadow: 0 0 20px rgb(255, 153, 0);
+  filter: brightness(1.2);
 }
 
 .allproduct button{
@@ -225,6 +229,9 @@ margin-right:10px ;
   }
   .valider:hover{
     background-color: chocolate;
+        transform: translateY(-2px);
+  box-shadow: 0 0 20px rgb(255, 153, 0);
+  filter: brightness(1.2);
 
   }
   .valider{

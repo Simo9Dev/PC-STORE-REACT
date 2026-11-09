@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 export default function Product() {
   const [cherche, setCherche] = useState("");
   const [products, setProducts] = useState([]);
+  
   function addTopanier(produits){
 const saved = localStorage.getItem("carts");
     let produit = [];
@@ -40,6 +41,7 @@ localStorage.setItem("carts",JSON.stringify(produit))
         onChange={(e) => setCherche(e.target.value)}
       />
       </div>
+      <hr />
     <div className='allproduct'>
    
 
