@@ -1,7 +1,9 @@
 import { useState } from "react";
+import Valider from './validation'
+import { Routes,Route,Link} from 'react-router-dom'
+
 
 export default function Panier() {
-    
   const [panier, setPanier] = useState(() => {
     try {
       const cart = localStorage.getItem("carts");
@@ -10,36 +12,42 @@ export default function Panier() {
       return [];
     }
   });
-   function deleteItem(indexToDelete) {
-    const updatedpanier = panier.filter((item, index) => {
-      return index !== indexToDelete;
-    }
-)
-setPanier(updatedpanier);
-localStorage.setItem("carts",JSON.stringify(updatedpanier))
-};
-let prix_total = 0;
-panier.map((t)=>{
-prix_total += Number(t.prix)
-})
+
+
+
+  function deleteItem(indexToDelete) {
+    const updatedPanier = panier.filter((_, index) => index !== indexToDelete);
+    setPanier(updatedPanier);
+    localStorage.setItem("carts", JSON.stringify(updatedPanier));
+  }
+
+  const prix_total = panier.reduce((sum, t) => sum + Number(t.prix), 0);
+
+
+
   return (
-    <>  <div className="panier_content">
+    <div className="panier_content">
       <table>
-      {panier.map((m, n) => (
-       < tr ><div className="sell_product" key={n}>
-        
-         <td><img src={m.img} alt="" /> </td><td><p>{m.Designation} || {m.prix} MAD  </p>  </td>  
-               <td> <button onClick={() => deleteItem(n)}>Supprimer</button></td>
-        </div>
-</tr>
-      
-        
-      ))}
-      </table>
-      <footer>
-      <h4>Le prix total de panier: {prix_total} MAD</h4><br />
-      <button className="valider">Valider La Command</button>
-      </footer></div>
-    </>
+  <tbody>
+    {panier.map((m, n) => (
+    <tr key={n} className="sell_product">
+  <td><img src={m.img} alt="" /></td>
+  <td><p>{m.Designation} || {m.prix} MAD</p></td>
+    <td><button onClick={() => deleteItem(n)}>Supprimer</button></td>
+  </tr>
+    ))}
+  </tbody>
+</table>
+
+<footer>
+    <h4>Le prix total de panier: {prix_total} MAD</h4>
+ 
+  <Link to="/validation" >Panier </Link>
+  <Routes>
+    <Route path="/validation" element={<Valider />} />
+  </Routes>
+ 
+  </footer>
+</div>
   );
 }

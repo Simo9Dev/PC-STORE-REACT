@@ -3,6 +3,7 @@ import Acceuil from './Acceuil'
 import Product from './product'
 import Contact from './contact'
 import Panier from './panier'
+import Valider from './validation'
 
 export default function App(){
     return(
@@ -21,6 +22,9 @@ export default function App(){
 <Route path="/product" element={<Product />}/>
 <Route path="/contact" element={<Contact />}/>
 <Route path="/panier" element={<Panier />}/>
+
+    <Route path="/validation" element={<Valider />} />
+
 
 </Routes>
 </>

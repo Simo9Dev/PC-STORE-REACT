@@ -224,7 +224,7 @@ margin-right:10px ;
  display: inline-block;
  padding: 5px;
  border-radius: 15px;
- margin-left: 27%;
+ margin-left: 3%;
 
   }
   .valider:hover{
@@ -236,7 +236,7 @@ margin-right:10px ;
   }
   .valider{
 
-    margin-left: 39%;
+    margin-left: 18%;
   border: none;
   background-color: rgb(242, 226, 5);
   padding: 10px;
@@ -253,4 +253,29 @@ footer{
 margin-left: 32%;
 margin-top: 5%;
 flex-wrap: wrap;
+}
+
+
+.validerf{
+  background-color: aliceblue;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 40%;
+  margin-top: 10%;
+
+
+}
+.validerf input{
+width: 200px;
+border-radius: 15px;
+
+margin-bottom: 10px;
+
+}
+.validerf button{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: chocolate;
+  border: none;
 }
